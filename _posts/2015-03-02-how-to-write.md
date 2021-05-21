@@ -57,7 +57,7 @@ centOS7下redis 6379端口开放却无法通过telnet进行外部连接？
 
 1、首先确认配置信息，bind默认为127.0.0.1。更改为0.0.0.0或者用#号注释掉。
 
-![image-20210521154429210](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210521154429210.png)
+![image-20210521154429210](新建文件夹\image-20210521154429210.png)
 
 2、protected-mode 默认为yes。更改为no即可通过外部进行连接。
 
